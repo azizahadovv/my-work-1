@@ -1,0 +1,124 @@
+.sectionHome {
+    height: 540px;
+    position: relative;
+    z-index: 1;
+    
+}
+.sectionHome2{
+    width: 1920px;
+    margin: 0 auto;
+}
+.sectionHome > .sectionHome2 > span > span {
+    position: absolute;
+    width: 450.5px;
+    height: 48px;
+    margin-left: 570px;
+    margin-top: 236px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-transform: capitalize;
+    color: #000000;
+    z-index: 9;
+}
+.sectionHome > .sectionHome2> span > h1 {
+    position: absolute;
+    width: 363.54px;
+    height: 51px;
+    margin-left: 652.5px;
+    margin-top: 288px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 9;
+    animation: SectionH1 1s linear step-start;
+    animation-name: SectionH1;
+    /* animation-duration: 15s; */
+}
+
+@keyframes SectionH1 {
+    0% {
+        margin-left: 0px;
+        margin-top: 288px;
+    }
+    100% {
+        margin-left: 652.5px;
+        margin-top: 288px;
+    }
+    0% {
+        margin-left: 0px;
+        margin-top: 288px;
+    }
+    100% {
+        margin-left: 652.5px;
+        margin-top: 288px;
+    }
+}
+
+.sectionHome > .sectionHome2 #slider {
+    overflow: hidden;
+}
+.sectionHome > .sectionHome2 > #slider > figure img {
+    width: 20%;
+    float: left;
+}
+.sectionHome > .sectionHome2> #slider > figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: slider 15s linear infinite;
+}
+
+@keyframes slider {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+.sections {
+    width: 1920px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    margin-top: -100px;
+}

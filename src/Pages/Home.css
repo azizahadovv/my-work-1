@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container-Navbar {
+    max-width: 1520px;
+    margin: 0 auto;
+}
+
+.top-Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90px;
+    gap: 135px;
+}
+.top-Navbar > img {
+    display: flex;
+    justify-content: space-between;
+    width: 137px;
+    height: 48px;
+}
+.top-Navbar > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+.top-Navbar > ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.top-Navbar > ul > li > button {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    align-content: center;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.top-Navbar > label > button {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    border: none;
+    width: 147.91px;
+    height: 40px;
+    background: #ffffff;
+}
+
+/* bottom Navbar part 2 */
+
+.bottom-Navbar {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background: #ffd200;
+    border-top: 1px solid #e0b800;
+    /* gap: 120px; */
+}
+
+.bottom-Navbar > .btn-for-category {
+    width: 270px;
+    height: 65px;
+    border-bottom: 1px solid #e0b800;
+    border: none;
+    background: #ffffff;
+    display: flex;
+    /* margin-left: -30px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-for-category {
+    position: relative;
+    
+}
+.modal-OpenCategory {
+    width: 270px;
+    min-height: 300px;
+    position: absolute;
+    background-color: #adadad;
+    top: 155px;
+    z-index: 9;
+
+}
+
+.modal-OpenCategory > button {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-self: start;
+    /* padding-left:50px ; */
+    justify-content: space-between;
+    border: none;
+    border-top: 1px solid #e6e6e6;
+    background: #ffff;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+.modal-OpenCategory > button :hover {
+    color: #ffd200;
+}
+.modal-OpenCategory > button > button {
+    border: none;
+    background: none;
+}
+.open-btn {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    border: none;
+    border-top: 1px solid #e6e6e6;
+    background: #ffff;
+}
+
+.bottom-Navbar > .btn-for-category > button {
+    border: none;
+}
+.bottom-Navbar > .btn-for-category > img {
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+}
+.bottom-Navbar > .btn-for-category > button > span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+.bottom-Navbar > .btn-for-category > button > span > b {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.input-groupNaV {
+    width: 650px;
+    height: 40px;
+    display: flex;
+    background: #ffffff;
+}
+.bottom-Navbar > .input-groupNaV > #inputGroupSelect02 {
+    width: 20%;
+    height: 40px;
+    background: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+}
+.bottom-Navbar > .input-groupNaV > #inputGroupSelect02 > option::first-letter {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    color: #a3a3a3;
+}
+.bottom-Navbar > .input-groupNaV > .input {
+    width: 70%;
+    border: none;
+    outline: none;
+    border-left: 1px solid #e6e6e6;
+}
+.bottom-Navbar > .input-groupNaV > .input::placeholder {
+    position: absolute;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #adadad;
+}
+
+.input-groupNaV > .input-group-text {
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+}
+.input-groupNaV > .input-group-text > img {
+    width: 40px;
+    height: 40px;
+    margin-left: 1rem;
+    border-radius: 6px;
+}
+.log-Page-admin {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.log-Page-admin > .log-in-btn {
+    height: 40px;
+}
+
+.log-Page-admin > .log-in-btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-start;
+    letter-spacing: 0.5px;
+    color: #000000;
+    border: none;
+    background-color: #ffd200;
+}
+
+.log-in-btn > span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.log-in-btn > b {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+.userCard-One {
+    border: none;
+    align-items: flex-start;
+    align-content: center;
+}
+.userCard {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    isolation: isolate;
+    width: 104px;
+    height: 38px;
+    background-color: #ffd200;
+    border: none;
+    cursor: pointer;
+}
+
+.userCard > .totalPrice {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
+    align-content: center;
+    letter-spacing: 0.5px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
